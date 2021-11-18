@@ -1,1 +1,147 @@
-/* Write your CSS here! */
+body {
+    margin-left: 8px;
+    display: block;
+}
+
+.funParagraph {
+    color: green;
+}
+
+.first {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#mainHeading {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    text-shadow: 3px 3px black;
+    font-family: "Courier New", "Lucida Console", monospace;
+    font-size: 45px;
+}
+
+h1 {}
+
+#vanlife {
+    font-family: "Courier New", "Lucida Console", monospace;
+    text-align: center;
+    border: 2px solid white;
+    outline: black solid 8px;
+    background-color: white;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main {}
+
+h2 {
+    text-align: center;
+    border: 2px solid white;
+    position: center;
+    outline: black solid 8px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Courier New", "Lucida Console", monospace;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* h2 span {
+    border: 2px solid white;
+    outline: black solid 8px;
+    background-color: white;
+    border-radius: 8px;
+    /* margin-top: 25px; */
+/* } */
+
+.section_image {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: 475px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    border-radius: 8px;
+    border: 10px solid black;
+}
+
+.img_caption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 35%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: orangered;
+    border-radius: 8px;
+    margin-left: 25px;
+}
+
+.section_image:hover .img_caption {
+    opacity: .75;
+}
+
+.caption_text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+p {
+    float: right;
+    border: 2px solid orangered;
+    outline: black solid 8px;
+    max-width: 37%;
+    margin-top: 17px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    /* margin: auto;   */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: white;
+    font-family: "Courier New", "Lucida Console", monospace;
+}
+
+main {
+    background-image: url("images/Background MJ.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 0px;
+    background-attachment: fixed; 
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+section {
+    margin-top: 100px
+    margin-bottom: 100px;
+}
+
+/* img {
+    /* float: right; */
+    /* height: 200px;
+    width: auto;
+    margin-top: 10px;
+} */ */
